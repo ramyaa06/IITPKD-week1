@@ -1,0 +1,15 @@
+.CSE, .DS, .EEE {
+    display: none;
+}
+
+div:has(#CSE:checked) ~ div .CSE {
+    display: block;
+}
+
+div:has(#DS:checked) ~ div .DS {
+    display: block;
+}
+
+div:has(#EEE:checked) ~ div .EEE {
+    display: block;
+}

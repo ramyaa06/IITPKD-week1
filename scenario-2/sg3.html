@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Preference</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/spacelab/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="g1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="logo.png" alt="Intern Course Registration" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-end header-buttons">
+                <button type="button" class="btn btn-outline-light me-2" style="color: #f9b13f;">NOTIFICATIONS</button>
+                <button type="button" class="btn btn-outline-light me-2" style="color: #f9b13f;">HOME</button>
+                <button type="button" class="btn btn-outline-light me-2" style="color: #f9b13f;">PhD scholar</button>
+                <button type="button" class="btn btn-outline-light" style="color: #f9b13f;">LOGOUT</button>
+            </div>
+        </div>
+    </div>
+    <div class="start">
+        <label>Research Scholar > Home > Research > Guide Preference</label>
+    </div>
+    <main class="container text-center py-5">
+        <div class="container-box">
+            <div class="row gx-5 align-items-center">
+                <form class="card col-lg-9">
+                    <div class="row py-4">
+                        <div class="col-lg-10">
+                            <div class="row my-4">
+                                <label for="department" class="col-md-2 col-form-label text-start">Department</label>
+                                <div class="col-md-10">
+                                    <select class="form-select" id="department">
+                                        <option disabled selected value=""></option>
+                                        <option id="CSE">Computer Science and Engineering</option>
+                                        <option id="DS">Data Science</option>
+                                        <option id="EEE">Electrical Engineering</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row my-4">
+                                <label for="guide" class="col-md-2 col-form-label text-start">Guide 3</label>
+                                <div class="col-md-10">
+                                    <select class="form-select" id="guide">
+                                        <option disabled selected value=""></option>
+                                        <option class="CSE">Albert Sunny</option>
+                                        <option class="CSE">Sandeep Chandran</option>
+                                        <option class="CSE">Krithika Ramaswamy</option>
+                                        <option class="DS">Koninika Pal</option>
+                                        <option class="DS">Mrinal Kanti Das</option>
+                                        <option class="DS">Nikhil Krishnan M</option>
+                                        <option class="EEE">Anirudh Guha</option>
+                                        <option class="EEE">Arun Rahul S</option>
+                                        <option class="EEE">Arvind Ajoy</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row my-4">
+                                <label for="affiliation" class="col-md-2 col-form-label text-start">Affiliation</label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control disabled" id="affiliation" aria-describedby="affiliation" placeholder="(If External)" disabled>
+                                </div>
+                            </div>
+                            <div class="instruction">
+                                <span>*Select guide in the order of your preference, guide 1 being your first preference.</span>
+                            </div>
+                        </div>
+                        <div class="col order-first order-lg-last d-flex gap-2 justify-content-center my-3">
+                            <a href="schange3.html">
+                                <input class="form-check-input" type="checkbox" id="external">
+                                <label class="form-check-label" for="external">External</label>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </form>
+                <div class="container-fluid col-3 my-3 my-lg-auto d-flex flex-column gap-4">
+                    <a href="sg2.html"><button type="button" class="btn">Back</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
